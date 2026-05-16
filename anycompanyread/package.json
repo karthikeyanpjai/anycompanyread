@@ -1,0 +1,16 @@
+{
+  "name": "anycompanyread",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "dev": "npm run dev --workspace=packages/frontend"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

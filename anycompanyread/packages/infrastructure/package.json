@@ -1,0 +1,22 @@
+{
+  "name": "@anycompanyread/infrastructure",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy",
+    "synth": "cdk synth"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.133.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.20.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "aws-cdk": "^2.133.0",
+    "typescript": "^5.3.3"
+  }
+}
